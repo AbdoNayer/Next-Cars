@@ -9,9 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.1",
+    "aos": "^2.3.4",
+    "axios": "^1.2.1",
+    "bootstrap": "^5.2.3",
+    "i18next": "^22.4.5",
+    "i18next-browser-languagedetector": "^7.0.1",
     "next": "13.1.5",
+    "popper.js": "^1.16.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-i18next": "^12.1.1",
+    "react-redux": "^8.0.5",
+    "redux-persist": "^6.0.0",
+    "sass": "^1.56.2",
+    "swiper": "^8.4.5"
   },
   "devDependencies": {
     "eslint": "8.32.0",

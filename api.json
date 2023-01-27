@@ -1,0 +1,14 @@
+{
+    "language" : [
+        {
+            "val"       : "ar",
+            "flag"      : "eg",
+            "name"      : "AR"
+        },
+        {
+            "val"       : "en",
+            "flag"      : "gb",
+            "name"      : "EN"
+        }
+    ]
+}
