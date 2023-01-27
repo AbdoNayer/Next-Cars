@@ -1,0 +1,121 @@
+// Font Import Cdn
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+// Mixin
+@import '../abstracts/mixins';
+@import '../abstracts/variables';
+
+// Local Style Page
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    outline: none !important;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+
+a, button, input, textarea, i{
+    @include transition(0.5s);
+}
+
+img{
+    object-fit: cover;
+}
+
+a{
+    text-decoration: none !important;
+    cursor: pointer;
+    color: $black;
+    &:hover{
+        color: $main;
+    }
+}
+
+i{
+    vertical-align: middle;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 10px 0;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    display: inline-block;
+}
+
+// Input Style
+
+label{
+    font-size: 19px;
+}
+
+input {
+    border: 1px solid #707070;
+    border-radius: 5px;
+    padding: 14px 25px;
+    font-size: 18px;
+    transition: border-color 200ms ease-out;
+    width: 100%;
+    &:focus, &:hover{
+      border-color: $main;
+    }
+}
+
+// Style Scroll Site
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+// Class Important
+
+.overlay{
+    @include positionItem(fixed, 0, initial, initial, 0, translateX(100%));
+    @include transition(0.3s);
+    height: 100%;
+    width: 100%;
+    z-index: 998;
+    background-color: rgba(0,0,0,0.6);              
+}
+
+.back{
+    transform: translate(0) !important;
+}
+
+.main-body{
+    min-height: 500px;
+}
+
+.bx-shadow{
+    -webkit-box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+    box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+}
+
+.old-shadow{
+    box-shadow: 0 3px 6px #00000029;
+}
+
+.btn-button{
+    width: 120px;
+    height: 45px;
+    border-radius: 5px;
+    &:hover{
+        transform: scale(0.9);
+    }
+}
