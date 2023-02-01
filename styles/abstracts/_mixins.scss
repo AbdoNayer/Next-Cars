@@ -12,7 +12,7 @@
 }
   
 // Position Item
-@mixin positionItem($position, $top, $bottom, $left, $right, $translate){
+@mixin positionItem($position, $top, $bottom, $right, $left, $translate){
     position: $position;
     top: $top;
     bottom: $bottom;

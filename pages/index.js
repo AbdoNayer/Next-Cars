@@ -1,14 +1,32 @@
-import Head from 'next/head';
-import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
+import { Filtration, ItemCar } from '../components';
+import API from '../api.json';
 
 export default function Home() {
   
-  const { t, i18n }                                   = useTranslation();
+  const { t }                                   = useTranslation();
 
   return (
-    <div className={''}>
-      <h1>{t('home')}</h1>
+    <div className={'section-home'}>
+      
+
+        <div className='container'>
+
+            <Filtration />
+
+            <div className='result-items'>
+                <div className='row'>
+                  {
+                    API.itemsCars.map((item) => (
+                      <div key={item.id} className='col-md-3 col-xs-12 overflow-hidden'>
+                        <ItemCar data={item} />
+                      </div>
+                    ))
+                  }
+                </div>
+            </div>
+        </div>
+
     </div>
   )
 }

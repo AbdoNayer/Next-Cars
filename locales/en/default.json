@@ -1,3 +1,10 @@
 {
-    "home" : "Home"
+    "home"                      : "Home",
+    "about"                     : "About Exhibition",
+    "contact"                   : "Contact Us",
+    "terms"                     : "privacy policy",
+    "search"                    : "Search",
+    "details"                   : "Details",
+    "carBrand"                  : "Car Brand",
+    "vehicleType"               : "Vehicle Type"
 }

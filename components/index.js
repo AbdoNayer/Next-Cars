@@ -8,3 +8,5 @@ export { default as Breadcrumb } from './Breadcrumb';
 export { default as Slider } from './Slider';
 export { default as EmptyData } from './EmptyData';
 export { default as Functions } from './Functions';
+export { default as ItemCar } from './ItemCar';
+export { default as Filtration } from './Filtration';

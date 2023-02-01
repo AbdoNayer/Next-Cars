@@ -1,5 +1,5 @@
 // Font Import Cdn
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
 
 // Mixin
 @import '../abstracts/mixins';
@@ -19,7 +19,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden !important;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Cairo', sans-serif !important;
     text-transform: capitalize;
 }
 
@@ -105,6 +105,22 @@ input {
 .bx-shadow{
     -webkit-box-shadow: 0 0 5px rgb(0 0 0 / 10%);
     box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+}
+
+.bg-main{
+    background-color: $main;
+}
+
+.bg-second{
+    background-color: $second;
+}
+
+.main-color{
+    color: $main;
+}
+
+.second-color{
+    color: $second;
 }
 
 .old-shadow{
