@@ -8,5 +8,7 @@
     "carBrand"                  : "Car Brand",
     "vehicleType"               : "Vehicle Type",
     "title"                     : "Nesim Albraimi",
-    "toyota"                    : "Toyota"
+    "toyota"                    : "Toyota",
+    "gohome"                    : "Go To Home",
+    "404"                       : "not found page"
 }

@@ -6,7 +6,6 @@ import reducers from '../reducer';
   
 const persistConfig = {
     key: 'root',
-    blacklist: ['ui','inputState'],
     storage,
 };
   

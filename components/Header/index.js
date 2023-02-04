@@ -1,11 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Link from "next/link";
 import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
+import { useDispatch, useSelector } from "react-redux";
+import { chooseLang } from '../../redux-toolkit/actions';
 
 export default function Header() {
 
-    const { t }                                         = useTranslation();
+    const { t, i18n }                 = useTranslation();
+    const langVal                     = useSelector((state) => state.langCars.langCars);
+    const [fadeIn, setFadeIn]         = useState(false);
+    const dispatch                    = useDispatch();
+
+    // const change = (lang) => {
+    //   return() =>{
+    //     if(fadeIn){
+    //       setFadeIn(!fadeIn);
+    //     }
+    //     dispatch(chooseLang(lang, i18n));
+    //   }
+    // }
 
     return (
       <div className=''>
@@ -19,16 +33,19 @@ export default function Header() {
                           <Link href={'/'} className='mx-2 p-2 overflow-hidden position-relative active'>
                             <span className='position-relative'>{t('home')}</span>
                           </Link>
-                          <Link href={'/'} className='mx-2 p-2 overflow-hidden position-relative'>
+                          <Link href={'/about'} className='mx-2 p-2 overflow-hidden position-relative'>
                             <span className='position-relative'>{t('about')}</span>
                           </Link>
-                          <Link href={'/'} className='mx-2 p-2 overflow-hidden position-relative'>
+                          <Link href={'/contact'} className='mx-2 p-2 overflow-hidden position-relative'>
                             <span className='position-relative'>{t('contact')}</span>
                           </Link>
-                          <Link href={'/'} className='mx-2 p-2 overflow-hidden position-relative'>
+                          <Link href={'/terms'} className='mx-2 p-2 overflow-hidden position-relative'>
                             <span className='position-relative'>{t('terms')}</span>
                           </Link>
                       </div>
+                      {/* <button className="flex justify-center items-center" onClick={langVal === 'ar' || langVal === null ? change('en') : change('ar')}>
+                          { langVal === 'ar' || langVal === null ? 'EN' : 'AR' }
+                      </button> */}
                   </div>
               </div>
           </header>

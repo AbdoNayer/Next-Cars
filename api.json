@@ -4,57 +4,20 @@
             "id" : 1,
             "duration" : "400",
             "img"           : [
-                "/img/001.jpeg",
-                "/img/001.jpeg",
-                "/img/001.jpeg"
+                "/cars/LS-500-CC/1.jpg",
+                "/cars/LS-500-CC/2.jpg",
+                "/cars/LS-500-CC/3.jpg",
+                "/cars/LS-500-CC/4.jpg",
+                "/cars/LS-500-CC/5.jpg",
+                "/cars/LS-500-CC/6.jpg",
+                "/cars/LS-500-CC/7.jpg",
+                "/cars/LS-500-CC/8.jpg",
+                "/cars/LS-500-CC/9.jpg",
+                "/cars/LS-500-CC/10.jpg",
+                "/cars/LS-500-CC/11.jpg",
+                "/cars/LS-500-CC/12.jpg"
             ],
-            "nameCar"       : "لكزس ال اكس 600 BB بريمي 2022",
-            "price"         : "20000 ريال سعودي",
-            "type"          : "KIA",
-            "model"         : "2022",
-            "colors"  : [
-                "#ff0",
-                "#f00",
-                "#000"
-            ],
-            "specifications" : [
-                "محرك 6 سلندر سعة 3.5 لتر V6 مزود بتوربين مزدوج يولد 415 حصان مع علبة سرعة أوتوماتيكية 10 سرعات",
-                "نظام القيادة بوضعيات متعددة إقتصادي - قابل للتعديل - عادي - مريح - رياضي - رياضي بلس",
-                "نظام ملاحة بشاشة عرض 12.3 إنش + تحكم عن بعد",
-                "نظام ملاحة بشاشة عرض 12.3 إنش + تحكم عن بعد",
-                "نظام صوتي مارك ليفينسون مع 23 سماعة",
-                "ابل كار بلاي و اندرويد أوتو",
-                "مفتاح كرت إضافي",
-                "شاشات ترفية عدد 2 قياس 11.6 أنش للمقاعد الخلفية",
-                "مقاعد أمامية مزودة بميزة التدليك"
-            ],
-            "location"  : "الرياض - القادسية - شارع وادي الجام",
-            "workTime"  : "من 8 صباحاً الى 12 ظهراً من 3 عصراً الى 7 مساء",
-            "social" : {
-                "facebook" : {
-                    "link"      : "https://www.facebook.com/",
-                    "icon"      : ""
-                },
-                "twitter" : {
-                    "link"      : "https://www.twitter.com/",
-                    "icon"      : ""
-                },
-                "instagram" : {
-                    "link"      : "https://www.instagram.com/",
-                    "icon"      : ""
-                }
-            }
-
-        },
-        {
-            "id" : 2,
-            "duration" : "600",
-            "img"           : [
-                "/img/001.jpeg",
-                "/img/001.jpeg",
-                "/img/001.jpeg"
-            ],
-            "nameCar"       : "لكزس ال اكس 600 BB بريمي 2022",
+            "nameCar"       : "لكزس ال اكس 500 LS بريمي 2022",
             "price"         : "20000 ريال سعودي",
             "type"          : "KIA",
             "model"         : "2022",
@@ -97,6 +60,38 @@
         {
             "id" : "1",
             "name" : "toyota"
+        }
+    ],
+    "social" : [
+        {
+            "id" : "1",
+            "icon" : "icon-facebook",
+            "color" : "#1877F2",
+            "link" : "https://m.facebook.com/1bncars?lst=100011115852835%3A100011115852835%3A1675522400&eav=AfbTv2luZdGhVkR7Y1C-_cr_yx0F1jHcO62YtRcaaK8HwE1v3ibAv7RoUuZJrJOAWCo&paipv=0#"
+        },
+        {
+            "id" : "2",
+            "icon" : "icon-snapchat",
+            "color" : "#FFFC00",
+            "link" : "https://www.snapchat.com/add/nb.cars?share_id=RSnciDbeTNmyjEKfl1q53g&locale=en_EG&sid=22183a091cf744278094670077d04e07"
+        },
+        {
+            "id" : "3",
+            "icon" : "icon-twitter",
+            "color" : "#1DA1F2",
+            "link" : "https://twitter.com/1nbcars"
+        },
+        {
+            "id" : "4",
+            "icon" : "icon-tiktok",
+            "color" : "#EE1D51",
+            "link" : "https://www.tiktok.com/@lvi911?_t=8ZbBGO9OZXe&_r=1"
+        },
+        {
+            "id" : "5",
+            "icon" : "icon-web",
+            "color" : "#DF2029",
+            "link" : "https://haraj.com.sa/users/%D9%85%D8%B9%D8%B1%D8%B6%20%D9%86%D8%B3%D9%8A%D9%85%20%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D9%85%D9%8A"
         }
     ]
 }

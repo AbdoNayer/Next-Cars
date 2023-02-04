@@ -24,4 +24,4 @@ i18n
     resources: resources,
 })
 
-export default i18n
+export default i18n;

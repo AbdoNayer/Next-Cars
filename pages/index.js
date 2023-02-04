@@ -1,10 +1,12 @@
 import { useTranslation } from 'react-i18next';
 import { Filtration, ItemCar } from '../components';
+import { useSelector } from "react-redux";
 import API from '../api.json';
 
 export default function Home() {
   
   const { t }                                   = useTranslation();
+  const langVal                                 = useSelector((state) => state.langCars.langCars);
 
   return (
     <div className={'section-home'}>
