@@ -14,7 +14,8 @@ export default  function ItemCar ({ data }) {
             <div className="info-car p-3 text-center">
                 <h5 className="second-color m-0">{data.nameCar}</h5>
                 <span className="d-block my-3 fw-bold">{data.price}</span>
-                <Link href={'/'} className="btn-button mt-3 mb-2 w-100 d-flex align-items-center justify-content-center bg-second">{t('details')}</Link>
+                <Link href={{ pathname : `${`/details/${data.id}`}`, query: data }} 
+                className="btn-button mt-3 mb-2 w-100 d-flex align-items-center justify-content-center bg-second">{t('details')}</Link>
             </div>
         </div>
     )

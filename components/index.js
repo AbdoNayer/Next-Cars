@@ -9,4 +9,5 @@ export { default as Slider } from './Slider';
 export { default as EmptyData } from './EmptyData';
 export { default as CheckedFound } from './CheckedFound';
 export { default as ItemCar } from './ItemCar';
+export { default as Input } from './Input';
 export { default as Filtration } from './Filtration';

@@ -7,10 +7,10 @@ export default function HeadPage({ namePage }) {
       <Head>
 
           {/* Name Page Title */}
-          <title> treasure-deal </title>
+          <title> Cars </title>
 
           {/* Shortcut Icon */}
-          <link rel="shortcut icon" href="/img/favicon.png" />
+          <link rel="shortcut icon" href="/img/logo.png" />
 
           {/* Meta Tag In Mobile */}
           <meta charset="utf-8" />
@@ -22,7 +22,7 @@ export default function HeadPage({ namePage }) {
           <meta name="theme-color" content="#121320" />
           <meta name="msapplication-navbutton-color" content="#121320" />
           <meta name="apple-mobile-web-app-status-bar-style" content="#121320" />
-          <meta name="description" content='treasure-deal' />
+          <meta name="description" content='Cars' />
 
       </Head>
     )

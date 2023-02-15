@@ -1,13 +1,13 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/effect-fade";
+import 'swiper/swiper-bundle.min.css';
+import 'swiper/swiper.min.css';
+import "swiper/components/navigation";
+import "swiper/components/effect-fade";
 
-// import required modules
 import { Navigation, EffectFade } from "swiper";
+import Image from 'next/image';
 
 export default function Slider({ data }) {
 
@@ -17,13 +17,13 @@ export default function Slider({ data }) {
             effect          = {"fade"}
             className       = "mySwiper"
             navigation      = {true}
-            slidesPerView   = {data.items}
-            modules         = {data.name === 'slideHome' ? [EffectFade, Navigation] : ''}
+            slidesPerView   = {1}
+            modules         = {[EffectFade, Navigation]}
         >
             {
-                data.arr.map((item, i) => (
+                data.images.map((item, i) => (
                     <SwiperSlide key={i}>
-                        <img src={item.img} alt="" />
+                        <Image style={{ width: '100%' }} width={700} height={600} src={item} alt="slider" />
                     </SwiperSlide>
                 ))
             }

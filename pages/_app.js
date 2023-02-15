@@ -8,7 +8,6 @@ import store from '../redux-toolkit/store/store';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import '../public/icomoon/icons.css';
-import 'swiper/css';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../styles/globals.scss';
 
