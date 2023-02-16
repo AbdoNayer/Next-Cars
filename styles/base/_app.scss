@@ -29,6 +29,7 @@ header{
         img{
             width: 100%;
             height: 100%;
+            @include transition(0.5s);
         }
     }
     .info-car{
@@ -36,6 +37,13 @@ header{
             text-overflow: ellipsis;
             white-space: nowrap;
             overflow: hidden;
+        }
+    }
+    &:hover{
+        .img-car{
+            img{
+                transform: scale(1.3) rotate(10deg);
+            }
         }
     }
 }
@@ -141,6 +149,13 @@ header{
     overflow: hidden;
     border: 5px solid #DDD;
     border-radius: 10px;
+}
+
+// Details
+.section-details{
+    .section-contact{
+        background-color: #f2f2f2;
+    }
 }
 
 // Terms

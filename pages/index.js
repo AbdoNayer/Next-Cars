@@ -17,6 +17,7 @@ export default function Home() {
             <Filtration />
 
             <div className='result-items'>
+
                 <div className='row'>
                   {
                     API.itemsCars.map((item) => (
